@@ -15,7 +15,12 @@ const config: Config = {
       'funky-end': '#00e0ff',
       'royal-start': '#6f4cff',
       'royal-end': '#432e99',
-      'segmented-control-text-up': '#A6A3C8'
+      'segmented-control-text-up': '#A6A3C8',
+      'button-start-hover': '#7E5FFD',
+      'button-end-hover': '#5B45B3',
+      'button-start-active': '#553EB5',
+      'button-end-active': '#6F4CFF',
+      'button-text-active': '#C4B9EE',
     },
     extend: {
       transitionTimingFunction: {
