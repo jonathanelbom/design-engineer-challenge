@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    /* type classes */
+    .display-large {
+        @apply text-[64px]/[72px] font-bold;
+    }
+    .display-medium {
+        @apply text-[48px]/[64px] font-bold;
+    }
+    .display-small {
+        @apply text-[40px]/[48px] font-bold;
+    }
+    .title-large {
+        @apply text-[32px]/[40px] font-bold;
+    }
+    .title-medium {
+        @apply text-[28px]/[36px] font-bold;
+    }
+    .title-small {
+        @apply text-[24px]/[32px] font-bold;
+    }
+    .body-large {
+        @apply text-[24px]/[32px];
+    }
+    .body-medium {
+        @apply text-[20px]/[28px];
+    }
+    .body-small {
+        @apply text-[16px]/[24px];
+    }
+    .caption-large {
+        @apply text-[14px]/[20px];
+    }
+    .caption-medium {
+        @apply text-[12px]/[16px];
+    }
+    .caption-small {
+        @apply text-[10px]/[12px];
+    }
+}
